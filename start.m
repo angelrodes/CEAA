@@ -108,6 +108,7 @@ outliers= ( (ages-Bgf).^2>2*(errors.^2+dBgf.^2) );
 % Display credits
 disp(['Cosmogenic Exposure Age Averages (CEAA) v.' scriptversion])
 disp('Angel Rodes, 2020. www.angelrodes.com')
+disp('cite: Ángel Rodés (2020) Cosmogenic Exposure Age Averages. github.com/angelrodes/CEAA doi:10.5281/zenodo.4024909')
 disp(' ')
 
 % Display samples
