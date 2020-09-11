@@ -14,6 +14,6 @@ A detailed description will be added to my blog www.angelrodes.com soon.
 
 Yo can cite this code as:
 
-Ángel Rodés (2020) Cosmogenic Exposure Age Averages. github.com/angelrodes/CEAA https://doi.org/10.5281/zenodo.4024909
+Ángel Rodés (2020) Cosmogenic Exposure Age Averages. github.com/angelrodes/CEAA doi:10.5281/zenodo.4024909
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4024909.svg)](https://doi.org/10.5281/zenodo.4024909)
