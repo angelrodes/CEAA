@@ -1,3 +1,4 @@
+function [] = start()
 % Cosmogenic Exposure Age Averages (CEAA)
 % Shows different methods to calculate an average (average ± deviation)
 % from a set of gaussian data (typically Cosmogenic exposure ages).
@@ -233,4 +234,5 @@ axis off
 
 %% Bye
 disp(' ')
-input ('Done. Press any key to exit.') % avoid closing everything if the script is run as "octave scriptname"
+input ('Done. Press any key to exit.') % avoid closing everything if the script is run as "octave start"
+end
