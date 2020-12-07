@@ -7,7 +7,7 @@
    First line of the csv file (header) is ignored.
  * Just run start and select your file.
  
-An excel spreadsheet is also included. This version does not produce any plot. Also, the BGF calculated here might not be accurate.
+<!--- An excel spreadsheet is also included. This version does not produce any plot. Also, the BGF calculated here might not be accurate. --->
 
 Please find a detailed description of this calculator in my blog www.angelrodes.com
 
