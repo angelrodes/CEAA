@@ -9,7 +9,7 @@
  
 <!--- An excel spreadsheet is also included. This version does not produce any plot. Also, the BGF calculated here might not be accurate. --->
 
-Please find a detailed description of this calculator in my blog www.angelrodes.com
+Please find a detailed description of this calculator in my blog https://angelrodes.wordpress.com/2020/12/07/cosmogenic-exposure-age-averages/
 
 ## Citation
 
