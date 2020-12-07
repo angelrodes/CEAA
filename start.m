@@ -153,6 +153,7 @@ if sum(outliers)>0
 end
 %% Plot data and results
 figure; set(gcf, 'color', 'w')
+set(0, 'DefaultLineLineWidth', 2);
 subplot(5,5,[1 19]); hold on
 
 % plot samples
@@ -197,6 +198,8 @@ xlim([minx maxx])
 ylim([-2 length(ages)+5])
 set(gca,'ytick',[])
 set(gca,'XAxisLocation','Top');
+box on
+grid on
 
 % plot labels
 subplot(5,5,[5 20]); hold on
@@ -224,6 +227,8 @@ plot(x,y,'-k')
 plot(x,aBgf*normalprob( x, Bgf, dBgf),'-b')
 set(gca,'ytick',[])
 xlim([minx maxx])
+box on 
+grid on
 
 % plot credits
 subplot(5,5,25); hold on
