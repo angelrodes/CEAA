@@ -1,5 +1,7 @@
 # Cosmogenic Exposure Age Averages (CEAA)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4024909.svg)](https://doi.org/10.5281/zenodo.4024909)
+
  These Matlab/Octave scripts show different methods to calculate an average (average ± deviation)
  from a set of gaussian data (typically Cosmogenic exposure ages).
  * Input data in .csv file containing 4 columns: 
@@ -16,5 +18,3 @@ Please find a detailed description of this calculator in my blog https://angelro
 You can cite this code as:
 
 Ángel Rodés (2020) Cosmogenic Exposure Age Averages. github.com/angelrodes/CEAA doi:10.5281/zenodo.4024909
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4024909.svg)](https://doi.org/10.5281/zenodo.4024909)
