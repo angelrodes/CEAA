@@ -127,7 +127,7 @@ disp(strAv)
 
 % Display weighted average
 roundednumbers = significant_figures([Wa,dWa,extdWa]);
-strWa=['Waighted average: ' num2str(roundednumbers(1)) ' ± ' num2str(roundednumbers(2)) ' (' num2str(roundednumbers(3)) ')'];
+strWa=['Weighted average: ' num2str(roundednumbers(1)) ' ± ' num2str(roundednumbers(2)) ' (' num2str(roundednumbers(3)) ')'];
 disp(strWa)
 
 % Display Best-Gaussian-Fit
