@@ -5,6 +5,8 @@ function [mu,sigma] = BFG(x,y)
 % Angel Rodes, 2020
 % www.angelrodes.com
 
+% About the function name: The acronym for "Best Gaussian Fit" should be "BGF". However, when I created the function file, I made an unconscious mistake, probably influenced by my Best Friends in Glasgow, or the Big Friendly Giant that leads the SUERC-cosmo group. For that reason (and also because I referenced this function in many other scripts), I decided to leave the "mistake" as it is :)
+
 % conver to array
 x=x(:); y=y(:);
 
@@ -65,7 +67,7 @@ close(h)
 % selec=selec(end);
 % mu=mi(selec);
 % sigma=si(selec);
-limitvalue=sortedri(100); % best 100 models
+limitvalue=sortedri(100); % best 100 models (avoid random artifacts due to x sampling limitations)
 selec=(ri>=limitvalue);
 mu=mean(mi(selec));
 sigma=mean(si(selec));
